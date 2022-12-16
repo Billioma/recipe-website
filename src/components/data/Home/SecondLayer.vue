@@ -1,33 +1,31 @@
 <template>
   <Wrapper>
     <c-flex align="center" justifyContent="space-between">
-      <c-box w="100%">
-        <c-box position="relative">
-          <c-flex
-            flexDirection="column"
-            justifyContent="center"
-            w="50%"
-            align="center"
-            textAlign="center"
-            bg="#fff"
-            p="3"
-            position="absolute"
-          >
-            <v-icon name="ri-double-quotes-l" color="orange" scale="2" />
-            <c-text fontSize="14px">
-              "Ask not what you can do for your country. Ask what's for lunch."
-              <br />
-              ~ Orson Welles
-            </c-text>
-          </c-flex>
-          <c-image
-            :src="require('@/assets/chef.jpg')"
-            w="35rem"
-            borderRadius="5px"
-          />
-        </c-box>
+      <c-box position="relative">
+        <c-flex
+          flexDirection="column"
+          justifyContent="center"
+          w="50%"
+          align="center"
+          textAlign="center"
+          bg="#fff"
+          p="3"
+          position="absolute"
+        >
+          <v-icon name="ri-double-quotes-l" color="orange" scale="2" />
+          <c-text fontSize="14px">
+            "Ask not what you can do for your country. Ask what's for lunch."
+            <br />
+            ~ Orson Welles
+          </c-text>
+        </c-flex>
+        <c-image
+          :src="require('@/assets/chef.jpg')"
+          w="35rem"
+          borderRadius="5px"
+        />
       </c-box>
-      <c-box w="50%">
+      <c-box w="45%">
         <c-heading fontSize="13px" color="red">WHO WE ARE </c-heading>
         <c-heading fontSize="35px" w="65%"
           >One thousand flavors in one place.
